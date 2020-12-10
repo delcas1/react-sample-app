@@ -1,0 +1,127 @@
+le :\MyCustomApps\react-projects\indl>babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
+
+C:\MyCustomApps\react-projects\indl>live-server public
+
+Uninstall Commands
+-------------------
+yarn global remove babel-cli live-server
+or
+npm uninstall -g babel-cli live-server
+
+Installing Locally
+-------------------
+yarn add live-server babel-cli@6.24.1
+or
+npm install live-server babel-cli@6.24.1
+
+npm install chokidar@3.4.3
+yarn add chokidar@3.4.3
+
+yarn add webpack@3.1.0
+
+then...
+
+npm run build
+
+//-----------second phase
+
+npm install validator
+
+npm from
+
+
+
+
+npm install react@16.0.0 react-dom@16.0.0
+
+npm install babel-core@6.25.0 babel-loader@7.1.1
+
+//Each component to a single file - best practice
+
+Eventually we will get rid of live-server and start using webpack devserver
+
+npm install webpack-dev-server@2.5.1
+
+npm install --save-dev babel-plugin-transform-class-properties@6.24.1
+
+//--------------------- RUN env
+npm run dev-server
+
+//Modal section
+
+npm install react-modal@2.2.2
+
+//STYLES
+
+npm install style-loader@0.18.2 css-loader@0.28.4
+npm install style-loader css-loader
+
+//STYLES II 
+npm install sass-loader node-sass (don't ?)
+npm install sass-loader@6.0.6 node-sass@4.5.3 (for sure 4.5.3 is bad)
+npm install sass-loader@6.0.6 node-sass (maybe)
+
+//Normalize
+npm install normalize.css
+
+//Routing 
+npm install react-router-dom
+
+//Advanced Routing
+npm install redux@3.7.2
+
+//uuid
+npm install uuid@3.1.0
+
+npm install --same-dev babel-plugin-transform-object-rest-spread
+
+npm install react@17.0.1 react-dom@17.0.1
+
+npm install react-redux
+
+npm install moment@2.18.1
+npm install moment --save
+
+npm install react-date@12.7.0
+npm install react-dates
+
+npm install react-addons-shallow-compare@15.6.0
+
+npm i babel-plugin-transform-class-properties@6.24.1
+
+npm i babel-plugin-transform-object-rest-spread@6.23.0
+
+npm i babel-polyfill@6.26.0
+
+npm i express
+
+npm i numeral 
+
+------------------
+
+Test
+
+npm install --save-dev jest
+
+------------
+
+Babel 7 upgrade
+
+npm install --save-dev @babel/core @babel/cli @babel/preset-env
+npm install --save @babel/polyfill
+npm install --save-dev @babel/plugin-transform-arrow-functions
+
+npm i --save-dev enzyme
+npm i enzyme-adapter-react-16
+npm i raf
+
+npm i enzyme-to-json
+
+npm i react-request
+
+-----------
+
+
+git init
+git status
+git add .

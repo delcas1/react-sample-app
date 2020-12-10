@@ -1,0 +1,48 @@
+
+Babel
+JSX/Expressions
+Conditional JSX Rendering
+ES5/6
+Advanced Arrow Functions
+Event and Attributes
+Data Binding
+Forms and Inputs
+Component Visibility Toggle
+Props
+Method Binding
+Mastery in SPA/state
+Stateless Functional Components
+React Dev Tools
+Lifecycle Methods
+Webpack
+Using external components
+Passing components
+Styling React Apps
+Style Loaders
+Mobile Considerations
+React-Router
+Server/Client Routing
+Passing Query Strings and URL Params
+Redux
+Dispacthing Actions
+Destructuring
+Reducers
+Spread Operators
+Filtering Sorting/Redux Data
+Enzyme
+Jest
+Component Testing
+Snapshot Testing
+Integrating Gitlab with React Projects Best Practices
+Production Deployment Best Practices
+Dependencies/React Ecosystem Mastery
+Async Redux Actions
+Heroku
+Auth Reducers
+Private Routes
+Public Routes
+Data Validation
+Hooks, Context, Fragments
+
+
+

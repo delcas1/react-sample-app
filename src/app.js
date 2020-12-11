@@ -17,5 +17,6 @@ const jsx = (
     
 );
 
+console.log('hello');
 
 ReactDOM.render(jsx, document.getElementById('app'));

@@ -155,6 +155,95 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists.
 
+babel.config.json  database.rules.json  dist  files  jest.config.json  lib  node_modules  package.json  package-lock.json  public  src  webpack.config.js  yarn.lock  yarn-error.log
+ls
+delcas1@DELCAS1-L4 MINGW64 /c/react-1/ind2 (master)
+$ ls
+babel.config.json  database.rules.json  dist/  files/  jest.config.json  lib/  node_modules/  package.json  package-lock.json  public/  src/  webpack.config.js  yarn.lock  yarn-error.log
+cd .
+delcas1@DELCAS1-L4 MINGW64 /c/react-1/ind2 (master)
+$ cd ..
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1
+$ ls
+ind2/  ind2.7z  ind2.7z-L1  ind2.zip  ind3/  r-15-06-production-webpack/  r-15-07-extracting-css/  r-15-07-extracting-css.zip  react-dates-master.zip  upgrade-babel-7.7z-L2
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1
+$ ls -a /.ssh
+ls: cannot access '/.ssh': No such file or directory
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1
+$ ls -a /c/Users/delcas1/ssh-key/.ssh
+ls: cannot access '/c/Users/delcas1/ssh-key/.ssh': No such file or directory
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1
+$ ls -a /c/Users/delcas1/ssh-key
+./  ../  id_rsa  id_rsa.pub
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1
+$ eval "$(ssh-agent -s"
+> quit
+> exit
+> help
+> ?
+> ls
+> exit
+> :q~
+> ^C
+
+
+
+
+
+
+
+
+
+
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1
+$
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1
+$
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1
+$
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1
+$
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1
+$ eval "$(ssh-agent -s)"
+Agent pid 1225
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1
+$ ssh-add /c/Users/delcas1/ssh-key/id_rsa
+Identity added: /c/Users/delcas1/ssh-key/id_rsa (sdelcas2020@gmail.com)
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1
+$ cd ind2/
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1/ind2 (master)
+$ ls
+babel.config.json    dist/   jest.config.json  node_modules/  package-lock.json  src/               yarn.lock
+database.rules.json  files/  lib/              package.json   public/            webpack.config.js  yarn-error.log
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1/ind2 (master)
+$ ssh -T git@github.com
+Hi delcas1! You've successfully authenticated, but GitHub does not provide shell access.
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1/ind2 (master)
+$ git remote add origin git@github.com:delcas1/react-sample-app.git
+fatal: remote origin already exists.
+
+delcas1@DELCAS1-L4 MINGW64 /c/react-1/ind2 (master)
+$ git remote -v
+origin  git@github.com:delcas1/react-sample-app.git (fetch)
+origin  git@github.com:delcas1/react-sample-app.git (push)
+
+git -push -u origin master
+
 Styling react
 -------------
 

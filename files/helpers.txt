@@ -209,4 +209,6 @@ C:\react-1\ind2>git add .
 
 C:\react-1\ind2>git commit -m "Setup production build and server"
 
-node server/server.js
+git push
+
+git push heroku master

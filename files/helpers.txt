@@ -394,3 +394,26 @@ heroku  https://git.heroku.com/react-sample-h.git (push)
 origin  git@github.com:delcas1/react-sample-app.git (fetch)
 origin  git@github.com:delcas1/react-sample-app.git (push)
 
+C:\react-1\ind2>git remote -v
+heroku  https://git.heroku.com/react-sample-h.git (fetch)
+heroku  https://git.heroku.com/react-sample-h.git (push)
+origin  git@github.com:delcas1/react-sample-app.git (fetch)
+origin  git@github.com:delcas1/react-sample-app.git (push)
+
+C:\react-1\ind2>git status
+On branch master
+Your branch is ahead of 'origin/master' by 7 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+        modified:   files/helpers.txt
+        modified:   package-lock.json
+        modified:   package.json
+
+
+C:\react-1\ind2>git add .
+
+C:\react-1\ind2>git commit -m "Setup production build and server"

@@ -212,3 +212,19 @@ C:\react-1\ind2>git commit -m "Setup production build and server"
 git push  (on the git bash only)
 
 git push heroku master  (command prompt only)
+
+Verifying deploy... done.
+To https://git.heroku.com/react-sample-sdc-a.git
+ * [new branch]      master -> master
+
+C:\react-1\ind2>heroku open
+
+---------------------
+Installing:
+yarn install --production
+yarn install (to install dev build, with all the necessary dependencies)
+
+yarn run dev-server
+
+yarn run build:prod
+yarn run start

@@ -249,3 +249,148 @@ Styling react
 
 //npm install --save-dev mini-css-extract-plugin  <-for webpack 4
 npm i extract-text-webpack-plugin
+
+npm i expressjs
+
+----
+
+Heroku
+------
+
+Microsoft Windows [Version 10.0.17763.1577]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\react-1>heroku
+ »   Warning: Our terms of service have changed: https://dashboard.heroku.com/terms-of-service
+CLI to interact with Heroku
+
+VERSION
+  heroku/7.47.5 win32-x64 node-v12.16.2
+
+USAGE
+  $ heroku [COMMAND]
+
+COMMANDS
+  access          manage user access to apps
+  addons          tools and services for developing, extending, and operating your app
+  apps            manage apps on Heroku
+  auth            check 2fa status
+  authorizations  OAuth authorizations
+  autocomplete    display autocomplete installation instructions
+  buildpacks      scripts used to compile apps
+  certs           a topic for the ssl plugin
+  ci              run an application test suite on Heroku
+  clients         OAuth clients on the platform
+  config          environment variables of apps
+  container       Use containers to build and deploy Heroku apps
+  domains         custom domains for apps
+  drains          forward logs to syslog or HTTPS
+  features        add/remove app features
+  git             manage local git repository for app
+  help            display help for heroku
+  keys            add/remove account ssh keys
+  labs            add/remove experimental features
+  local           run Heroku app locally
+  logs            display recent log output
+  maintenance     enable/disable access to app
+  members         manage organization members
+  notifications   display notifications
+  orgs            manage organizations
+  pg              manage postgresql databases
+  pipelines       manage pipelines
+  plugins         list installed plugins
+  ps              Client tools for Heroku Exec
+  psql            open a psql shell to the database
+  redis           manage heroku redis instances
+  regions         list available regions for deployment
+  releases        display the releases for an app
+  reviewapps      manage reviewapps in pipelines
+  run             run a one-off process inside a Heroku dyno
+  sessions        OAuth sessions
+  spaces          manage heroku private spaces
+  status          status of the Heroku platform
+  teams           manage teams
+  update          update the Heroku CLI
+  webhooks        list webhooks on an app
+
+
+C:\react-1>heroku -v
+heroku/7.47.5 win32-x64 node-v12.16.2
+
+C:\react-1>heroku login
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/b3724b8f-6f12-4b4d-a5b8-3f5b2db76eb9?requestor=SFMyNTY.g2gDbQAAAA0xOTkuMjQ3LjQ2LjQ0bgYAS35fVHYBYgABUYA.svtvWnkLxaPYqSrMxNoMehxyFbPVm7NU4tm4mJWEDNk
+Logging in... done
+Logged in as sdelcas2020@gmail.com
+
+C:\react-1>cd ind2
+
+C:\react-1\ind2>dir
+ Volume in drive C is OSDisk
+ Volume Serial Number is 705B-D6AA
+
+ Directory of C:\react-1\ind2
+
+12/11/2020  10:51 AM    <DIR>          .
+12/11/2020  10:51 AM    <DIR>          ..
+11/15/2020  12:56 PM               143 .babelrc
+12/10/2020  02:45 PM                13 .gitignore
+12/11/2020  09:07 AM    <DIR>          .idea
+12/03/2020  03:16 PM               225 .npmrc
+11/16/2020  06:13 AM    <DIR>          .vscode
+12/07/2020  06:42 AM               280 babel.config.json
+12/03/2020  07:25 AM                59 database.rules.json
+11/11/2020  05:36 AM    <DIR>          dist
+12/10/2020  12:41 PM    <DIR>          files
+12/09/2020  03:07 PM               146 jest.config.json
+12/07/2020  06:44 AM    <DIR>          lib
+12/11/2020  10:48 AM    <DIR>          node_modules
+12/11/2020  10:48 AM           978,079 package-lock.json
+12/11/2020  10:48 AM             1,941 package.json
+12/11/2020  10:53 AM    <DIR>          public
+12/11/2020  10:33 AM               231 README.md
+12/11/2020  10:44 AM    <DIR>          server
+12/11/2020  10:51 AM    <DIR>          src
+12/11/2020  08:04 AM             1,142 webpack.config.js
+11/24/2020  08:31 AM           162,660 yarn-error.log
+11/10/2020  06:05 AM           152,694 yarn.lock
+              12 File(s)      1,297,613 bytes
+              11 Dir(s)  11,600,027,648 bytes free
+
+C:\react-1\ind2>heroku create react-sample
+Creating ⬢ react-sample... !
+ !    Name react-sample is already taken
+
+C:\react-1\ind2>heroku create react-sample-h
+Creating ⬢ react-sample-h... done
+https://react-sample-h.herokuapp.com/ | https://git.heroku.com/react-sample-h.git
+
+C:\react-1\ind2>git remote
+heroku
+origin
+
+C:\react-1\ind2>git remote =v
+error: Unknown subcommand: =v
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+C:\react-1\ind2>git remote -v
+heroku  https://git.heroku.com/react-sample-h.git (fetch)
+heroku  https://git.heroku.com/react-sample-h.git (push)
+origin  git@github.com:delcas1/react-sample-app.git (fetch)
+origin  git@github.com:delcas1/react-sample-app.git (push)
+
